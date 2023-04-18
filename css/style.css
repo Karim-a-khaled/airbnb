@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  margin-bottom: 20px;
+}
+.card img{
+  height: 250px;
+  border-radius: 10px;
+}
+.icons{
+  width:55px;
+  padding:15px;
+  margin:15px
+}
+
+h5{
+  display: inline;
+  margin-right: 126px;
+}
+.nav-2{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.your-info{
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter{
+  margin-left: 350px;
+  background-color: white;
+  border: 1px thin ;
+  border-radius: 10px;
+  padding: 6px;
+}
+button{
+  border: 1px;
+  border-radius: 5px;
+}
+.your-home-btn{
+  background-color: white;
+}
+button:hover{
+  cursor: pointer;
+}
+.your-info-btn{
+  padding: 3px;
+  background-color: white;
+  /* outline: 1px solid black; */
+  box-shadow: 0 0 0 2px black;
+  border-radius: 20px;
+}
+.learn-more{
+  color: black;
+}
